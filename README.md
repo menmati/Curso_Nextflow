@@ -65,7 +65,7 @@ Para poner en práctica los ejemplos y ejercicios de este curso, se recomienda d
 
 1. **Lectura activa e interactiva:** Sigue el orden secuencial de las lecciones utilizando la barra de navegación situada al principio y al final de cada página.
 2. **Experimentación práctica:** Copia y ejecuta los fragmentos de código en tu propia terminal para observar cómo Nextflow aísla las tareas en directorios hash dentro de `work/`.
-3. **Resolución de problemas:** Implementa los desafíos propuestos en el archivo de ejercicios de cada módulo antes de consultar soluciones.
+3. **Resolución de problemas:** Realiza los desafíos propuestos de cada módulo antes de consultar soluciones.
 4. **Autoevaluación:** Responde a los tests conceptuales para afianzar la arquitectura interna de Nextflow.
 
 ---
