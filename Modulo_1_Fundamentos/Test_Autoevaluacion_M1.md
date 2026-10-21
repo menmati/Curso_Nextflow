@@ -1,4 +1,4 @@
-[⬅️ Ejercicios M1](Ejercicios_M1.md) | [🏠 Temario Principal](../README.md)
+[⬅️ Ejercicios M1](Ejercicios_M1.md) | [🏠 Temario Principal](../README.md) | [Siguiente: Módulo 2 - Lección 4 ➡️](../Modulo_2_Operadores_y_Canales_Avanzados/Leccion_04_Operadores_Transformacion.md)
 
 ---
 
@@ -80,5 +80,5 @@ Responde a estas 10 preguntas para verificar tu comprensión de los conceptos cl
 
 ---
 
-| [⬅️ Ejercicios M1](Ejercicios_M1.md) | 🏠 [Temario Principal](../README.md) |
-| :--- | :---: |
+| [⬅️ Ejercicios M1](Ejercicios_M1.md) | 🏠 [Temario Principal](../README.md) | [Siguiente: Módulo 2 - Lección 4 ➡️](../Modulo_2_Operadores_y_Canales_Avanzados/Leccion_04_Operadores_Transformacion.md) |
+| :--- | :---: | :---: |

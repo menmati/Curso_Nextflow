@@ -34,8 +34,21 @@ Domina las bases de la ejecución reactiva, la estructura de un pipeline, la ana
 
 ---
 
+### 🔹 Módulo 2: Operadores, Metadatos y Canales Avanzados
+Manipula flujos de datos complejos, domina el patrón universal `[meta, reads]` de nf-core y construye tu primer pipeline integrado.
+
+| # | Documento / Lección | Temas Principales |
+| :-: | :--- | :--- |
+| **04** | [📖 Lección 4: Operadores de Transformación](Modulo_2_Operadores_y_Canales_Avanzados/Leccion_04_Operadores_Transformacion.md) | Transformación 1 a 1 (`.map`), filtrado condicional (`.filter`), aplanado (`.flatten`) y agregación global (`.collect`). |
+| **05** | [📖 Lección 5: Combinación y Tuplas Meta de nf-core](Modulo_2_Operadores_y_Canales_Avanzados/Leccion_05_Combinacion_y_Tuplas_Meta.md) | El patrón estándar `tuple val(meta), path(reads)`, cruce por clave con `.join`, producto cartesiano con `.combine` y lectura de `samplesheet.csv` con `.splitCsv`. |
+| **06** | [📖 Lección 6: Agrupación y Ramificación](Modulo_2_Operadores_y_Canales_Avanzados/Leccion_06_Agrupacion_y_Ramificacion.md) | Agrupación de réplicas técnicas con `.groupTuple`, bifurcación condicional de canales con `.branch` y partición múltiple con `.multiMap`. |
+| **🏋️** | [🏋️ Ejercicios Prácticos del Módulo 2](Modulo_2_Operadores_y_Canales_Avanzados/Ejercicios_M2.md) | Limpieza de datos clínicos, reasociación de réplicas en secuenciación y bifurcación Single-End vs Paired-End. |
+| **📝** | [📝 Test de Autoevaluación del Módulo 2](Modulo_2_Operadores_y_Canales_Avanzados/Test_Autoevaluacion_M2.md) | 10 preguntas conceptuales y de arquitectura sobre operadores avanzados. |
+| **🎯** | [🎯 HITO 1: Mini-Pipeline QC FASTQ](Modulo_2_Operadores_y_Canales_Avanzados/Practica_Hito_1_MiniPipeline_QC.md) | Práctica integradora: pipeline completo de análisis individual en paralelo y consolidación global en reporte HTML interactivo. |
+
+---
+
 ### 🔹 Próximos Módulos *(En desarrollo progresivo)*
-- **Módulo 2: Operadores y Canales Avanzados:** Transformación (`map`, `filter`), combinación (`combine`, `join`), tuplas de metadatos `[meta, reads]`, ramificación (`branch`, `multiMap`).
 - **Módulo 3: Modularidad, Configuración y Contenedores:** Subworkflows, módulos DSL2 reutilizables, directivas dinámicas por etiquetas, integración con Docker, Singularity y Conda.
 - **Módulo 4: Depuración, HPC y Cloud:** Mecanismo `-resume`, inspección del árbol `work/`, estrategias ante errores (`retry`, `ignore`), monitorización y Seqera Platform / AWS Batch.
 - **Módulo 5: Proyecto Final de Graduación:** Pipeline NGS modular de control de calidad y alineamiento de extremo a extremo, listo para producción y cartera técnica.
