@@ -48,8 +48,20 @@ Manipula flujos de datos complejos, domina el patrón universal `[meta, reads]` 
 
 ---
 
+### 🔹 Módulo 3: Modularidad, Configuración y Contenedores
+Diseña pipelines mantenibles y reproducibles: arquitectura de módulos DSL2, importaciones con alias, desacoplamiento de recursos en `nextflow.config` y ejecución aislada con Docker y BioContainers.
+
+| # | Documento / Lección | Temas Principales |
+| :-: | :--- | :--- |
+| **07** | [📖 Lección 7: Modularización en DSL2 y Subworkflows](Modulo_3_Modularidad_Config_y_Contenedores/Leccion_07_Modularizacion_DSL2.md) | Módulos atómicos, directiva `include`, alias con `as` para múltiples instancias y arquitectura de subworkflows (`take`, `main`, `emit`). |
+| **08** | [📖 Lección 8: Configuración, Perfiles y Parámetros](Modulo_3_Modularidad_Config_y_Contenedores/Leccion_08_Nextflow_Config_y_Params.md) | Jerarquía de configuración, scopes (`params`, `process`), directivas dinámicas por etiquetas (`withLabel`) y perfiles de ejecución (`-profile`). |
+| **09** | [📖 Lección 9: Contenedores con Docker y Singularity](Modulo_3_Modularidad_Config_y_Contenedores/Leccion_09_Contenedores_Docker.md) | Reproducibilidad nativa, directiva `container`, ecosistema BioContainers (Quay.io), mapeo UID:GID y Docker vs Singularity en entornos HPC. |
+| **🏋️** | [🏋️ Ejercicios Prácticos del Módulo 3](Modulo_3_Modularidad_Config_y_Contenedores/Ejercicios_M3.md) | Creación de módulos reutilizables, configuración elástica con perfiles y ejecución bioinformática real con Samtools en Docker. |
+| **📝** | [📝 Test de Autoevaluación del Módulo 3](Modulo_3_Modularidad_Config_y_Contenedores/Test_Autoevaluacion_M3.md) | 10 preguntas sobre modularidad DSL2, jerarquía de configuración y contenedores. |
+
+---
+
 ### 🔹 Próximos Módulos *(En desarrollo progresivo)*
-- **Módulo 3: Modularidad, Configuración y Contenedores:** Subworkflows, módulos DSL2 reutilizables, directivas dinámicas por etiquetas, integración con Docker, Singularity y Conda.
 - **Módulo 4: Depuración, HPC y Cloud:** Mecanismo `-resume`, inspección del árbol `work/`, estrategias ante errores (`retry`, `ignore`), monitorización y Seqera Platform / AWS Batch.
 - **Módulo 5: Proyecto Final de Graduación:** Pipeline NGS modular de control de calidad y alineamiento de extremo a extremo, listo para producción y cartera técnica.
 

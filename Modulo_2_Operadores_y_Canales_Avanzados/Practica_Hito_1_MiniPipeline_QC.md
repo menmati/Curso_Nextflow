@@ -1,4 +1,4 @@
-[⬅️ Test Autoevaluación M2](Test_Autoevaluacion_M2.md) | [🏠 Temario Principal](../README.md)
+[⬅️ Test Autoevaluación M2](Test_Autoevaluacion_M2.md) | [🏠 Temario Principal](../README.md) | [Siguiente: Módulo 3 - Lección 7 ➡️](../Modulo_3_Modularidad_Config_y_Contenedores/Leccion_07_Modularizacion_DSL2.md)
 
 ---
 
@@ -72,5 +72,5 @@ Comprueba que tu pipeline `main_hito1.nf` genera la estructura de carpetas esper
 
 ---
 
-| [⬅️ Test Autoevaluación M2](Test_Autoevaluacion_M2.md) | 🏠 [Temario Principal](../README.md) |
+| [⬅️ Test Autoevaluación M2](Test_Autoevaluacion_M2.md) | 🏠 [Temario Principal](../README.md) | [Siguiente: Módulo 3 - Lección 7 ➡️](../Modulo_3_Modularidad_Config_y_Contenedores/Leccion_07_Modularizacion_DSL2.md) |
 | :--- | :---: |
