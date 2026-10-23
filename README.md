@@ -61,9 +61,22 @@ Diseña pipelines mantenibles y reproducibles: arquitectura de módulos DSL2, im
 
 ---
 
-### 🔹 Próximos Módulos *(En desarrollo progresivo)*
-- **Módulo 4: Depuración, HPC y Cloud:** Mecanismo `-resume`, inspección del árbol `work/`, estrategias ante errores (`retry`, `ignore`), monitorización y Seqera Platform / AWS Batch.
-- **Módulo 5: Proyecto Final de Graduación:** Pipeline NGS modular de control de calidad y alineamiento de extremo a extremo, listo para producción y cartera técnica.
+### 🔹 Módulo 4: Depuración, HPC y Computación Cloud
+Domina la resiliencia en producción: el mecanismo `-resume`, depuración con archivos `.command.*`, escalado elástico de memoria ante errores OOM, reportes de telemetría y ejecución en Seqera Platform / AWS.
+
+| # | Documento / Lección | Temas Principales |
+| :-: | :--- | :--- |
+| **10** | [📖 Lección 10: Mecanismo `-resume`, Caché y Depuración](Modulo_4_Depuracion_HPC_y_Cloud/Leccion_10_Mecanismo_Resume_y_Debug.md) | Directorio `work/`, cálculo del hash criptográfico de 128 bits, inspección de `.command.sh`, `.command.err` y causas de invalidación de caché. |
+| **11** | [📖 Lección 11: Manejo de Errores y Tolerancia Dinámica](Modulo_4_Depuracion_HPC_y_Cloud/Leccion_11_Manejo_de_Errores.md) | Directiva `errorStrategy` (`terminate`, `finish`, `ignore`, `retry`), `maxRetries`, escalado elástico con `task.attempt` y filtrado por códigos de salida (137/143). |
+| **12** | [📖 Lección 12: Reportes Automáticos, Cloud y Seqera Platform](Modulo_4_Depuracion_HPC_y_Cloud/Leccion_12_Reportes_y_Cloud_Seqera.md) | Banderas de telemetría (`-with-report`, `-with-timeline`, `-with-trace`, `-with-dag`), configuración en `nextflow.config`, Seqera Platform y AWS S3 / Batch. |
+| **🏋️** | [🏋️ Ejercicios Prácticos del Módulo 4](Modulo_4_Depuracion_HPC_y_Cloud/Ejercicios_M4.md) | Pruebas de invalidación selectiva de caché, auto-recuperación ante fallos simulados e inspección de métricas crudas en `trace.txt`. |
+| **📝** | [📝 Test de Autoevaluación del Módulo 4](Modulo_4_Depuracion_HPC_y_Cloud/Test_Autoevaluacion_M4.md) | 10 preguntas sobre depuración avanzada, estrategias de error, telemetría y plataformas cloud. |
+| **🎯** | [🎯 HITO 2: Pipeline Modular Robusto y Contenerizado](Modulo_4_Depuracion_HPC_y_Cloud/Practica_Hito_2_Pipeline_Robusto.md) | Práctica integradora: pipeline resiliente con reintentos dinámicos, perfiles Docker, auto-escalado de memoria y reportes automáticos. |
+
+---
+
+### 🔹 Próximo Módulo *(En desarrollo)*
+- **Módulo 5: Proyecto Final de Graduación:** Pipeline NGS modular de control de calidad y alineamiento de extremo a extremo, listo para producción y cartera técnica profesional.
 
 ---
 

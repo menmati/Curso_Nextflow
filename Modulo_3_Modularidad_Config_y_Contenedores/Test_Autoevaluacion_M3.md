@@ -1,4 +1,4 @@
-[⬅️ Ejercicios M3](Ejercicios_M3.md) | [🏠 Temario Principal](../README.md)
+[⬅️ Ejercicios M3](Ejercicios_M3.md) | [🏠 Temario Principal](../README.md) | [Siguiente: Módulo 4 - Lección 10 ➡️](../Modulo_4_Depuracion_HPC_y_Cloud/Leccion_10_Mecanismo_Resume_y_Debug.md)
 
 ---
 
@@ -98,5 +98,5 @@
 
 ---
 
-| [⬅️ Ejercicios M3](Ejercicios_M3.md) | 🏠 [Temario Principal](../README.md) |
+| [⬅️ Ejercicios M3](Ejercicios_M3.md) | 🏠 [Temario Principal](../README.md) | [Siguiente: Módulo 4 - Lección 10 ➡️](../Modulo_4_Depuracion_HPC_y_Cloud/Leccion_10_Mecanismo_Resume_y_Debug.md) |
 | :--- | :---: |
