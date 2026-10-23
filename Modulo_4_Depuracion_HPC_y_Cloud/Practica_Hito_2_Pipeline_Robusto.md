@@ -1,4 +1,4 @@
-[⬅️ Test Autoevaluación M4](Test_Autoevaluacion_M4.md) | [🏠 Temario Principal](../README.md)
+[⬅️ Test Autoevaluación M4](Test_Autoevaluacion_M4.md) | [🏠 Temario Principal](../README.md) | [🎓 Proyecto Final ➡️](../Modulo_5_Proyecto_Final_de_Graduacion/Proyecto_Final_Guia.md)
 
 ---
 
@@ -83,5 +83,5 @@ Comprueba que tu pipeline `main.nf` genera la estructura de carpetas esperada, e
 
 ---
 
-| [⬅️ Test Autoevaluación M4](Test_Autoevaluacion_M4.md) | 🏠 [Temario Principal](../README.md) |
-| :--- | :---: |
+| [⬅️ Test Autoevaluación M4](Test_Autoevaluacion_M4.md) | 🏠 [Temario Principal](../README.md) | [🎓 Proyecto Final ➡️](../Modulo_5_Proyecto_Final_de_Graduacion/Proyecto_Final_Guia.md) |
+| :--- | :---: | :---: |

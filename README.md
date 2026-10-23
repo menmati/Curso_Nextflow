@@ -75,8 +75,12 @@ Domina la resiliencia en producción: el mecanismo `-resume`, depuración con ar
 
 ---
 
-### 🔹 Próximo Módulo *(En desarrollo)*
-- **Módulo 5: Proyecto Final de Graduación:** Pipeline NGS modular de control de calidad y alineamiento de extremo a extremo, listo para producción y cartera técnica profesional.
+### 🎓 Módulo 5: Proyecto Final de Graduación
+La culminación práctica del curso: especificaciones y arquitectura para construir de extremo a extremo tu propio pipeline profesional `nf-rnaseq-qc`, aplicando todos los estándares de nf-core, contenedores BioContainers, perfiles de ejecución elásticos y agregación MultiQC.
+
+| # | Documento / Guía | Temas Principales |
+| :-: | :--- | :--- |
+| **🎓** | [🎓 Guía del Proyecto Final de Graduación](Modulo_5_Proyecto_Final_de_Graduacion/Proyecto_Final_Guia.md) | Especificaciones completas, arquitectura con diagramas Mermaid, estructura de carpetas estándar, criterios de evaluación y defensa técnica profesional. |
 
 ---
 
